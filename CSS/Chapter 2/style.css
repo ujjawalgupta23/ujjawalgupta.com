@@ -1,0 +1,18 @@
+* {
+    margin: b 
+}
+
+.red {
+    background: rgba(7, 170, 188, 0.8);
+    color: white;
+    height: 244px;
+}
+
+.green {
+    background-color: green;
+    color: aqua;
+}
+
+.abc {
+    background-color: blueviolet;
+}
