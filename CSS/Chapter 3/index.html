@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box2 {
+            background-color: chocolate;
+            margin: 60px;
+            height: 40px;
+            border-radius: 10px;
+            border: solid blue 4px;
+        }
+
+        .box1 {
+            background-color: coral;
+            margin: 40px 20px;
+            padding: 20px 10px;
+            height: 50px;
+        }
+
+        .b1 {
+            background-color: red;
+            margin: 30px;
+            height: 300px;
+            width: 233px;
+            border: 2px solid black;
+        }
+
+        .b2 {
+            background-color: chartreuse;
+            /* margin: 10px; */
+            height: 20px;
+            /* width: 100%; this height is including padding and border if border box- is selected, it is 100% of parent width */
+            padding: 2px;
+            border: 5px solid gray;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quos, eius dolorum vel reprehenderit doloribus architecto quod ex omnis mollitia incidunt quis non officiis sunt earum quas autem magni? Itaque?</div>
+
+    <div class="box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aspernatur libero autem! Exercitationem excepturi impedit officiis unde quia distinctio nobis?</div>
+
+    <div class="b1">
+        <div class="box">Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="b2"></div>
+    </div>
+</body>
+</html>

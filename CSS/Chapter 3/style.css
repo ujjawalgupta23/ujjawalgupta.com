@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+padding: 0;
+}
+
+header {
+    height: 60px;
+    background: black;
+    color: white;
+}
+
+.content {
+    background-color: coral;
+    height: 80vh;
+    padding: 20px;
+    margin: 30px;
+}
+
+footer {
+    background-color: rebeccapurple;
+    text-align: center;
+    margin: 20px;
+}
